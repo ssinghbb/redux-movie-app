@@ -5,6 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { store } from "./features/store";
+// css
+// import '../../swiper/css/swiper.css';
+import "../node_modules/swiper/swiper.min.css";
+import "../node_modules/swiper/swiper.scss";
+import "../node_modules/swiper/swiper.less";
 
 ReactDOM.render(
   <React.StrictMode>
